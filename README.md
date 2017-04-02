@@ -13,12 +13,12 @@ Esta pequeña plantilla de aplicacion esta en base la templeta [Coreui Free Boos
 ## Instalacion
 
 ```
-$ git clone https://github.com/AdrianZelada/Angular4NodeTemplate.git 
+$ git clone https://github.com/AdrianZelada/StoreMEAN4.git 
 
 ```
 ### Instalacion de Backend 
 ```
-$ cd Angular4NodeTemplate-master
+$ cd StoreMEAN4
 $ npm install
 ```
 
