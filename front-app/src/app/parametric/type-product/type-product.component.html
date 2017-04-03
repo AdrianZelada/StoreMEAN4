@@ -3,4 +3,21 @@
 <a class="nav-link" routerLinkActive="active" [routerLink]="['/typeProduct/list']"><i class="icon-speedometer"></i> Type Product List</a>
 <a class="nav-link" routerLinkActive="active" [routerLink]="['/typeProduct/crud']"><i class="icon-speedometer"></i> Type Product Crud</a>
 <br>
-<router-outlet></router-outlet>
+
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          Type Product
+        </div>
+        <div class="card-block">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div><!--/.col-->
+  </div>
+</div>
+
+
+
